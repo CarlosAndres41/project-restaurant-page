@@ -1,1 +1,1 @@
-console.log('hello');
+import css from 'style.css';
