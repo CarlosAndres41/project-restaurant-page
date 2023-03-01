@@ -64,3 +64,12 @@ body {
     color: var(--light-creme);
     background-color: var(--purple);
 }
+
+/* Intro */
+
+.intro {
+    height: 80vh;
+    background-image: url('./background.jpg');
+    background-size: cover;
+    opacity: 0.8;
+}
