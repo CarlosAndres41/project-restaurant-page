@@ -1,3 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --black: #1a120b;
+    --brown: #3c2a21;
+    --creme: #d5cea3;
+    --light-creme: #e5e5cb;
+    --purple: #85586f;
+    --orange: #c58940;
+    --light-yellow: #faeab1;
+    --white: #faf8f1;
+}
+
 body {
     background-color: aqua;
 }
