@@ -18,3 +18,12 @@
 body {
     background-color: aqua;
 }
+
+.logo {
+    content: url(./signature-solid.svg);
+    height: 5rem;
+}
+
+path {
+    fill: var(--creme);
+}

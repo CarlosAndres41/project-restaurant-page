@@ -1,6 +1,8 @@
 function navBar() {
     const navBar = document.createElement('div');
     navBar.classList.add('navbar');
+
+    // Logo
     const logo = document.createElement('i');
     logo.classList.add('logo');
 
