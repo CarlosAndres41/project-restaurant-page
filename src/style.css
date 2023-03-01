@@ -38,8 +38,9 @@ body {
 }
 
 .logo-name h1 {
+    font-family: 'Cinzel', serif;
     color: var(--brown);
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 /* Buttons */

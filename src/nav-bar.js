@@ -11,7 +11,7 @@ function navBar() {
     // Name
     const name = document.createElement('h1');
     name.classList.add('name');
-    name.textContent = 'My Restaurant';
+    name.textContent = "Restaurant's Name";
 
     // Append logo and name to div
     logoAndName.appendChild(logo);
