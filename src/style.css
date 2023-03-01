@@ -16,7 +16,7 @@
 }
 
 body {
-    background-color: var(--light-creme);
+    background-color: var(--white);
 }
 .navbar {
     padding: 1rem;
@@ -25,6 +25,7 @@ body {
     justify-content: space-between;
 }
 
+/* Logo and Name */
 .logo-name {
     display: flex;
     gap: 5px;
@@ -36,7 +37,29 @@ body {
     height: 5rem;
 }
 
+.logo-name h1 {
+    color: var(--brown);
+    font-size: 2.5rem;
+}
+
+/* Buttons */
+
 .buttons {
     display: flex;
     gap: 5px;
+}
+
+.btn {
+    cursor: pointer;
+    border: none;
+    padding: 8px;
+    color: var(--brown);
+    background-color: var(--light-creme);
+    border-radius: 5px;
+    box-shadow: 1px 1px 1px 1px rgba(60, 42, 33, 0.2);
+}
+
+.btn:hover {
+    color: var(--light-creme);
+    background-color: var(--purple);
 }
