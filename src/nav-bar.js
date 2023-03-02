@@ -24,12 +24,15 @@ function navBar() {
     // Create buttons
     const aboutButton = document.createElement('span');
     aboutButton.classList.add('action');
+    aboutButton.classList.add('abt-btn');
     aboutButton.textContent = 'About Us';
     const menuButton = document.createElement('span');
     menuButton.classList.add('action');
+    menuButton.classList.add('menu-btn');
     menuButton.textContent = 'Menu';
     const contactButton = document.createElement('span');
     contactButton.classList.add('action');
+    contactButton.classList.add('res-btn');
     contactButton.textContent = 'Reservations';
 
     // Append buttons to their div

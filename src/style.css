@@ -37,6 +37,11 @@ body {
 .logo {
     content: url(./signature-solid.svg);
     height: 5rem;
+    cursor: pointer;
+}
+
+.logo-name h1 {
+    cursor: pointer;
 }
 
 .logo-name h1,
@@ -107,8 +112,8 @@ body {
 }
 
 .about-pic {
-    max-width: 100%;
-    max-height: 100%;
+    max-width: 80%;
+    max-height: 80%;
 }
 
 .img-cont {
@@ -121,7 +126,7 @@ body {
     text-align: right;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    gap: 10rem;
     padding: 2rem;
 }
 
