@@ -49,22 +49,20 @@ body {
 
 .buttons {
     display: flex;
-    gap: 5px;
+    gap: 1rem;
 }
 
-.btn {
+.action {
     cursor: pointer;
-    border: none;
-    padding: 8px;
+    font-size: small;
+    font-weight: 600;
     color: var(--brown);
-    background-color: var(--light-creme);
-    border-radius: 5px;
-    box-shadow: 1px 1px 1px 1px rgba(60, 42, 33, 0.2);
 }
 
-.btn:hover {
-    color: var(--light-creme);
-    background-color: var(--purple);
+.action:hover {
+    color: var(--orange);
+    font-size: medium;
+    font-style: italic;
 }
 
 /* Intro */

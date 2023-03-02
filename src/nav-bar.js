@@ -22,15 +22,15 @@ function navBar() {
     buttons.classList.add('buttons');
 
     // Create buttons
-    const aboutButton = document.createElement('button');
-    aboutButton.classList.add('btn');
+    const aboutButton = document.createElement('span');
+    aboutButton.classList.add('action');
     aboutButton.textContent = 'About Us';
-    const menuButton = document.createElement('button');
-    menuButton.classList.add('btn');
+    const menuButton = document.createElement('span');
+    menuButton.classList.add('action');
     menuButton.textContent = 'Menu';
-    const contactButton = document.createElement('button');
-    contactButton.classList.add('btn');
-    contactButton.textContent = 'Contact Us';
+    const contactButton = document.createElement('span');
+    contactButton.classList.add('action');
+    contactButton.textContent = 'Reservations';
 
     // Append buttons to their div
     buttons.appendChild(aboutButton);
