@@ -29,6 +29,12 @@ function aboutUs() {
         '"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."';
     textContainer.appendChild(aboutP);
 
+    const attribution = document.createElement('a');
+    attribution.classList.add('attr-about');
+    attribution.setAttribute('href', 'https://unsplash.com/photos/-eKZLpj7U0E');
+    attribution.textContent = 'Image by Jason Leung at Unsplash.com';
+    imgContainer.appendChild(attribution);
+
     // Add containers to aboutUs div
     aboutUs.appendChild(imgContainer);
     aboutUs.appendChild(textContainer);
