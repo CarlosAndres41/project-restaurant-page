@@ -8,8 +8,9 @@ function menu() {
     menuH1.textContent = 'Our Menu';
     menu.appendChild(menuH1);
 
-    // Create menu options div
+    // Create menu intro div
     const menuIntro = document.createElement('div');
+    menuIntro.classList.add('menu-intro');
 
     const menuH2 = document.createElement('h2');
     menuH2.classList.add('menu-h2');
@@ -23,6 +24,7 @@ function menu() {
     menuIntro.appendChild(pricing);
 
     const menuOpts = document.createElement('div');
+    menuOpts.classList.add('menu-opts');
 
     const main = document.createElement('h1');
     main.textContent = 'Mains';
@@ -51,8 +53,15 @@ function menu() {
     menuOpts.appendChild(opt3);
     menuOpts.appendChild(opt3Text);
 
+    // info
+    const info = document.createElement('p');
+    info.classList.add('menu-info');
+    info.textContent =
+        'Tellus mauris a diam maecenas sed enim ut sem viverra aliquet eget sit amet tellus cras adipiscing enim eu turpis egestas pretium aenean pharetra magna ac placerat vestibulum lectus mauris ultrices eros in cursus turpis massa tincidunt dui ut ornare lectus sit amet est placerat in egestas erat imperdiet sed euismod nisi porta lorem mollis aliquam ut porttitor leo a diam sollicitudin tempor id eu nisl nunc mi ipsum faucibus vitae aliquet nec ullamcorper sit amet risus nullam eget felis eget nunc lobortis mattis aliquam faucibus purus in massa tempor nec feugiat nisl pretium fusce id velit ut tortor pretium';
+
     menu.appendChild(menuIntro);
     menu.appendChild(menuOpts);
+    menu.appendChild(info);
     return menu;
 }
 
