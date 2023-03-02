@@ -3,6 +3,7 @@ import navBar from './nav-bar.js';
 import intro from './intro.js';
 import aboutUs from './about-us.js';
 import menu from './menu.js';
+import reserv from './reservations.js';
 
 // Content div:
 
@@ -11,3 +12,4 @@ cont.appendChild(navBar());
 cont.appendChild(intro());
 cont.appendChild(aboutUs());
 cont.appendChild(menu());
+cont.appendChild(reserv());
